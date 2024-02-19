@@ -1,0 +1,31 @@
+{
+  "name": "nlw-expert-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neanderdev/nlw-expert-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neanderdev/nlw-expert-nodejs/issues"
+  },
+  "homepage": "https://github.com/neanderdev/nlw-expert-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "prisma": "^5.9.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "fastify": "^4.26.1",
+    "zod": "^3.22.4"
+  }
+}
